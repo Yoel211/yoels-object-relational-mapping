@@ -24,7 +24,7 @@ Product.belongsToMany(Tag,{
 });
 
 // Tags belongToMany Products (through ProductTag)
-TimeRanges.belongsToMany(ProductTag,{
+Tag.belongsToMany(ProductTag,{
   through: {
     model: ProductTag,
     unique:false
