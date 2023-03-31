@@ -1,1 +1,3 @@
 # yoels-object-relational-mapping
+
+This project is designed to add a database name, MySQL username, and MySQL password to an environment variable file . This project is useful because you are then able to connect to a database using Sequelize. Users can get started with the project by simply entering the command to invoke the application, then the server is started and the Sequelize models are synced to the MySQL database then open API GET routes in Insomnia Core for categories, products, or tags. The data for each of these routes is displayed in a formatted JSON. You are then able to test API POST, PUT, and DELETE routes in Insomnia Core.
